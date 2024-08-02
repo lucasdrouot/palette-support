@@ -1,0 +1,30 @@
+name: Feature or improvement request 
+description: Create a request to add a feature or improvement to Palette
+title: "[ENHANCEMENT]"
+labels: enhancement
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to write this feature/improvement request! Please complete the title of the form.
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What would you like to see added to Palette (or improved)?
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        You can now submit the form.
+        By suggesting new features or improvements, you help make Palette better.
